@@ -14,8 +14,7 @@
                 <li><a href="#">Images</a></li>
                 <li class="menu-item">
                     <a href="#">
-                        <img class="icon-menu" src="./img/icons8-circled-menu-90.svg" 
-                        alt="menu-icon">
+                        <img class="icon-menu" src="./img/menu.svg" alt="menu-icon">
                     </a>
                 </li>
                 <li><a href="#">
@@ -26,31 +25,43 @@
         </nav>
     </header>
     <main>
-        <section>
+        <section class="logo-container">
             <img src= "https://www.google.com/images/branding/googlelogo/1x/googlelogo_light_color_272x92dp.png" alt="Google Logo">
         </section>
-        <section>
-            <form action="">
+        <section class="main-input">
+            <div class="search-bar-container">
+                <img  class="search-icon" src="./img/search.png" alt="search">
                 <input type="text">
-                <button>Search</button>
-            </form>
+                <a class= "especial-search-icon" href="#">
+                    <img src="./img/mic.svg" alt="Voice search">
+                </a>
+                <a class= "especial-search-icon"  href="#">
+                    <img src="./img/lens.svg" alt="Image search">
+                </a>
+            </div>
         </section>
-        <section>
-            <button>Search Google</button>
-            <button>I'm Feeling Lucky</button>
+        <section class="button-bar-container">
+            <div><button>Search Google</button></div>
+            <div><button>I'm Feeling Lucky</button></div>
+            
         </section>
     </main>
     <footer>
-        <div>Colombia</div>
-        <ul>
-            <li>About Google</li>
-            <li>Advertising</li>
-            <li>Business</li>
-            <li>How Search Works</li>
-            <li>Privacy</li>
-            <li>Terms</li>
-            <li>Settings</li>
-        </ul>
+        <div class= "country" > Colombia</div>
+        <div class= "list-container">
+            <ul class="options">
+                <li>About Google</li>
+                <li>Advertising</li>
+                <li>Business</li>
+                <li>How Search Works</li>
+            </ul> 
+            <ul class="options">
+                    <li>Privacy</li>
+                    <li>Terms</li>
+                    <li>Settings</li>
+            </ul>
+        </div>
+
     </footer>
 </body>
 </html>

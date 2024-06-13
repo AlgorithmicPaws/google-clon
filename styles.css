@@ -5,10 +5,14 @@
 }
 body
 {
-    font-size: 16px;
+    font-size: 14px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: #202124;
     color: white;
+}
+span{
+    min-width: 25px;
+    min-height: 25px;
 }
 a
 {
@@ -51,4 +55,112 @@ nav .nav-right-section a
 .nav-right-section .user-icon
 {
     border-radius: 50%;
+}
+main {
+    width: 100%;
+    height: 70vh; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+}
+main .logo-container
+{
+    margin-bottom: 20px;
+}
+main .main-input
+{   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 45px;
+}
+main .main-input .search-bar-container
+{   
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    max-width: 584px;
+    height: 45px;
+    z-index: 3;    
+    border-radius: 100px;
+    border: solid 1px #63676c;
+    padding: 0 10px;
+}
+main .main-input .especial-search-icon img
+{
+    width: 25px;
+    height: 25px;
+    margin: 0 10px;
+}
+main .main-input .search-bar-container input
+{
+    width: 100%;
+    height: 100%;
+    background-color: transparent;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: white;
+    padding: 0 5px;
+}
+main .main-input .search-bar-container .search-icon 
+{
+    width: 25px;
+    height: 25px;
+
+}
+main  .button-bar-container
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 10px;
+    width: 100%;
+    max-width: 340px;
+}
+main .button-bar-container button
+{
+    background-color: #303134;
+    border-radius: 5px;
+    padding: 0 15px;
+    height: 35px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+}
+footer{
+    width: 100%;
+    background-color: #171717;
+    position: absolute;
+    font-size: 15px;
+    bottom: 0;
+}
+footer .country
+{
+    padding: 15px 25px;
+    border-bottom: #63676c 1px solid;
+}
+footer .list-container
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 12px;
+}
+footer .options 
+{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+footer .options li
+{
+    margin: 5px 10px;
 }
